@@ -1,0 +1,106 @@
+body {
+  font-size: 16px;
+  background-color: #21177B;
+}
+/** HEADER **/
+#header-nav {
+  background-color: SlateBlue;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-bottom: 5px ;
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: #290066;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px whitesmoke;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.5;
+}
+#nav-list {
+  background: #9D91EE;
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  text-shadow: 1px 1px 2px magenta;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  margin-top: 5px;
+  margin-right: 10px; 
+  margin-bottom: 0px;
+}
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 5px;
+   }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+#call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+}
+/* END HEADER */
+
+/* HOME PAGE */
+#menu-categories-title{
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: magenta;
+}
+.menu-item-tile {
+  margin-bottom: 15px;
+ }
+.menu-item-tile hr {
+  width: 80%;
+}
+h3.menu-item-title {
+  margin: 0 0 0px;
+  padding-top: 10px;
+  text-align: center;
+  color: #000;
+  background: whitesmoke;
+  font-weight: bold;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+  background: whitesmoke;
+  padding: 15px;
+  text-align: justify;
+}
+p span {
+  font-size: .8em;
+  font-style: normal;
+  font-weight: bold;
+  text-align: end;
+}
+.ww {
+  height: 1000px;
+  overflow-y: auto;
+  overflow-x: clip;
+}  
+/* END HOME PAGE */
